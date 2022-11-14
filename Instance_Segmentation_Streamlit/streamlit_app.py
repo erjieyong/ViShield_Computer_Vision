@@ -5,8 +5,7 @@ import json
 from PIL import Image
 from base64 import b64decode
 
-image = Image.open('Logo.png')
-st.image(image, width = 100)
+st.image('https://generalassemblydsi32.s3.ap-southeast-1.amazonaws.com/Logo.png', width = 100)
 st.title("ViShield")
 st.write("Vision Shield, An app that helps you to filter out snakes from your images and videos")
 st.caption("For more information, visit my [github](https://github.com/erjieyong?tab=repositories) or contact me directly at [erjieyong@gmail.com](mailto:erjieyong@gmail.com)")
