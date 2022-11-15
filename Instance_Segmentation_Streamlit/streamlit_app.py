@@ -25,24 +25,11 @@ if submit:
     else:
         with st.spinner('🪄 ✨Gathering magic dusts...✨'):
             api_url = 'https://jy-dsi-capstone-no755hevjq-as.a.run.app'
-            # api_url = 'http://localhost:8080'
             api_route = '/predict'
-            # api_stream = '/stream'
-
-
-        # response = requests.post(f'{api_url}{api_route}', json=json.dumps(url), stream=True)
-        # for chunk in response.iter_content(1024):
-        #     print(chunk)
-
             
             response = requests.post(f'{api_url}{api_route}', json=json.dumps(url)) # json.dumps() converts dict to JSON
             response = response.json()
 
-            # stream = requests.get(f'{api_url}{api_stream}', stream=True) # json.dumps() converts dict to JSON
-            # print('attempting to connect to stream...')
-            # for line in stream.iter_lines():
-            #     if line:
-            #         print(line)
             logs = None
             print(response['logs'])
             

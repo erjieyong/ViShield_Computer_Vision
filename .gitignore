@@ -1,0 +1,5 @@
+#  Run the following in git bash to automatically add all file more than size 50MB to .gitignore
+#  find * -size +50M | cat >> .gitignore
+
+Image_Classification_Extension/node_modules/
+Image_Classification_Extension/.parcel-cache/
