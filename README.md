@@ -33,7 +33,7 @@ For some, this might even result in long term detrimental health and societal pr
 - Character and Values change
 
 ## Problem Statement
-However, the internet being a free and diverse ecosystem, is hard to control and police. There are a magnitude of programs, applications or even government agencies out there that are trying to block out undesirable websites. But there could be millions of such sites on the internet and attempting to create a log of all such websites is akin to a never ending game of whack-a-mole. 
+However, the internet being a free and diverse ecosystem, is hard to control and police. There are a magnitude of programs, applications or even government agencies out there that are trying to block out undesirable websites by their url only. But there could be millions of such sites on the internet and attempting to create a log of all such websites is akin to a never ending game of whack-a-mole. 
 
 Therefore, in this project, we will attempt to utilise the capabilities of computer vision algorithims together with neural network to identify and localised specific classes of images/videos and filter them out. 
 
